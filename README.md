@@ -36,3 +36,7 @@ Skeleton ve Suspense bu partta kullanılan önemli kelimeler.
 ## -Partial Rendering ?
 
 Basit şekilde dinamik ve statik işlemlerin avatajlarını birleştirerek aynı sayfada kullanma olayı.
+
+## -Search and Pagination ?
+
+Debouncing: Veritabanına yollanan istek sayısını azaltabilir böylece kaynak tasarrufu yapabilirsiniz. Yani bir arama yaparken her tuşa bastığınıza arama yapmayı engeller belli bir saniye bekler ve o saniyeye kadar yazılan kelime yada cümle üzerinden arama yapar.
