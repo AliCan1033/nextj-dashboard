@@ -39,4 +39,10 @@ Basit şekilde dinamik ve statik işlemlerin avatajlarını birleştirerek aynı
 
 ## -Search and Pagination ?
 
-Debouncing: Veritabanına yollanan istek sayısını azaltabilir böylece kaynak tasarrufu yapabilirsiniz. Yani bir arama yaparken her tuşa bastığınıza arama yapmayı engeller belli bir saniye bekler ve o saniyeye kadar yazılan kelime yada cümle üzerinden arama yapar.
+Debouncing: Veritabanına yollanan istek sayısını azaltabilir böylece kaynak tasarrufu yapabilirsiniz. Yani bir arama yaparken her tuşa bastığınıza arama yapmayı engeller belli bir saniye bekler ve o saniyeye kadar yazılan kelime yada cümle üzerinden arama yapar.77## -Search and Pagination ?
+
+## Mutating Data
+
+Breadcrumbs eklendi 
+
+use server mantığı kullanılarak forma girilen bilgile get edilerek terminal ekranında gösterildi.
