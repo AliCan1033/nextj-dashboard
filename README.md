@@ -46,3 +46,12 @@ Debouncing: Veritabanına yollanan istek sayısını azaltabilir böylece kaynak
 Breadcrumbs eklendi 
 
 use server mantığı kullanılarak forma girilen bilgile get edilerek terminal ekranında gösterildi.
+
+Veriler doğrulandı ve hazırladı örneğin string olarak tanımlanan amount alanına sadece number girilmesi gibi
+
+veritabanına insert etmenin yolu yapıldı
+
+Revalidate and redirect (yeniden doğrulama ve yeniden yönlendirme) burada veri eklendikten sonra güncel verinin çekilmesi için revalidatePath  kullanıldı.
+Sayfa yönlendirmesi için redirect kullanıldı.
+
+Delete, Update işlemleri eklendir
