@@ -55,3 +55,9 @@ Revalidate and redirect (yeniden doğrulama ve yeniden yönlendirme) burada veri
 Sayfa yönlendirmesi için redirect kullanıldı.
 
 Delete, Update işlemleri eklendir
+
+## Error Handlind 
+
+actionda try catch eklenip method 
+  throw new Error('Failed to Delete Invoice');
+e düşürüldüğünde hata ekrana basılır. Eğer hatayı ekranda görmek yerine bir hata sayfası görmek isteniyorsa error.tsx sayfası eklenir.
