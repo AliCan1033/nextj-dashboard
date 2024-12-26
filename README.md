@@ -61,3 +61,12 @@ Delete, Update işlemleri eklendir
 actionda try catch eklenip method 
   throw new Error('Failed to Delete Invoice');
 e düşürüldüğünde hata ekrana basılır. Eğer hatayı ekranda görmek yerine bir hata sayfası görmek isteniyorsa error.tsx sayfası eklenir.
+
+error.tsx ve not-found.tsx dosyaları ekelenerek kullanıcıların sayfaya ulaşamadıklarında yönlendirilecekleri ve gösterilecek sayfalar eklendi.
+
+## Improving Accessibility (Erişilebilirliğin Geliştirilmesi)
+
+burada package.json dosyasına (next lint) eklemesi yapılım ardından pnpm lint diyerek ilgili kütüphaneri yükledikten sonra pnpm lint dedidğimizde bize projede bulunan hata ve uyarıları göstermekte. 
+Aynı zamnada package.json içerisinde scripts içerisinde "lint": "next lint" eklenmeli
+Bunu yaptıktan sonra .eslintrc.json dosyası da projeye eklenir.
+create-form.tsx'de validationlar eklendi.
